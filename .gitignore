@@ -1,0 +1,186 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+.autovenv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+
+# ============================================================
+# Jupyter / VS Code
+# ============================================================
+
+.ipynb_checkpoints/
+
+.vscode/
+!.vscode/settings.json
+
+.idea/
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+*.env
+
+# Keep example environment files
+!.env.example
+
+
+# ============================================================
+# Machine-specific files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# ============================================================
+# Large / Raw Datasets
+# ============================================================
+
+# Raw datasets
+data/raw/
+data/external/
+data/datasets/
+
+# Common dataset directories
+datasets/
+raw_data/
+external_data/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wmv
+*.mpeg
+*.mpg
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Audio
+*.wav
+*.mp3
+*.flac
+*.aac
+
+
+# ============================================================
+# Generated / Processed Data
+# ============================================================
+
+data/processed/
+processed/
+
+# NumPy / array data
+*.npy
+*.npz
+
+# Pandas / data exports
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# Large CSV files
+# Uncomment if your CSVs are generated/large:
+# *.csv
+
+
+# ============================================================
+# Machine Learning Models / Checkpoints
+# ============================================================
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.joblib
+*.model
+
+checkpoints/
+models/checkpoints/
+
+
+# ============================================================
+# Experiment Outputs
+# ============================================================
+
+results/
+
+# Experiment logs
+logs/
+*.log
+
+# TensorBoard
+runs/
+tensorboard/
+
+
+# ============================================================
+# Temporary experiment files
+# ============================================================
+
+tmp/
+temp/
+.cache/
+
+*.lock
+
+
+# ============================================================
+# OS / IDE generated files
+# ============================================================
+
+*.orig
+*.rej

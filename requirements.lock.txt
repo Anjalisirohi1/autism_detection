@@ -1,0 +1,13 @@
+# Exact versions. Do not edit.
+# GPU build by default (CUDA 12.1 wheels; falls back to CPU automatically if
+# no NVIDIA GPU/driver is present, since torch itself handles that at
+# runtime). To force CPU-only instead, comment out the --extra-index-url
+# line below and change the torch line to:  torch==2.5.1
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+torch==2.5.1
+pyarrow==25.0.1

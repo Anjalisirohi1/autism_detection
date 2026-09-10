@@ -1,0 +1,179 @@
+{
+  "generated_utc": "2026-08-16T05:17:22.624868+00:00",
+  "dataset": "aljubouri_kinect",
+  "licence": "CC0 1.0",
+  "skeleton": "aljubouri_kinect_v2",
+  "normalisation": "centre+scale+rotate",
+  "policy": {
+    "windowing": "none - one sequence per recording",
+    "padding": "right zero-padding with an explicit boolean mask",
+    "normalisation": "not applied here; fitted per fold on training subjects only"
+  },
+  "max_length": 60,
+  "n_samples": 98,
+  "n_subjects": 98,
+  "class_balance": {
+    "TD": 50,
+    "ASD": 48
+  },
+  "samples_skipped": [
+    {
+      "sample_id": "8",
+      "path": "C:\\Work\\MLCOE\\Autism\\data\\external\\kinect_asd_td\\Dataset\\Autism\\children with ASD\\22\\video\\8.xlsx",
+      "reason": "ValueError: structural: unstable_bone_lengths"
+    },
+    {
+      "sample_id": "8",
+      "path": "C:\\Work\\MLCOE\\Autism\\data\\external\\kinect_asd_td\\Dataset\\Autism\\children with ASD\\8\\video\\8.xlsx",
+      "reason": "ValueError: structural: unstable_bone_lengths"
+    }
+  ],
+  "length_stats": {
+    "min": 21,
+    "max": 60,
+    "mean": 31.816326530612244,
+    "median": 31.0
+  },
+  "confounds": {
+    "age_years_by_group": {
+      "ASD": {
+        "mean": 8.583333333333334,
+        "min": 5.0,
+        "max": 15.0
+      },
+      "TD": {
+        "mean": 6.66,
+        "min": 2.0,
+        "max": 14.0
+      }
+    },
+    "body_scale_m_by_group": {
+      "ASD": 0.4516358769407919,
+      "TD": 0.38509305376923914
+    },
+    "sex_by_group": {
+      "ASD": {
+        "M": 40,
+        "F": 8
+      },
+      "TD": {
+        "M": 26,
+        "F": 24
+      }
+    }
+  },
+  "views": {
+    "pose__whole_body": {
+      "shape": [
+        98,
+        60,
+        75
+      ],
+      "n_features": 75
+    },
+    "pose__head": {
+      "shape": [
+        98,
+        60,
+        6
+      ],
+      "n_features": 6
+    },
+    "pose__torso": {
+      "shape": [
+        98,
+        60,
+        24
+      ],
+      "n_features": 24
+    },
+    "pose__left_arm": {
+      "shape": [
+        98,
+        60,
+        18
+      ],
+      "n_features": 18
+    },
+    "pose__right_arm": {
+      "shape": [
+        98,
+        60,
+        18
+      ],
+      "n_features": 18
+    },
+    "pose__left_leg": {
+      "shape": [
+        98,
+        60,
+        12
+      ],
+      "n_features": 12
+    },
+    "pose__right_leg": {
+      "shape": [
+        98,
+        60,
+        12
+      ],
+      "n_features": 12
+    },
+    "motor__whole_body": {
+      "shape": [
+        98,
+        60,
+        198
+      ],
+      "n_features": 198
+    },
+    "motor__head": {
+      "shape": [
+        98,
+        60,
+        12
+      ],
+      "n_features": 12
+    },
+    "motor__torso": {
+      "shape": [
+        98,
+        60,
+        60
+      ],
+      "n_features": 60
+    },
+    "motor__left_arm": {
+      "shape": [
+        98,
+        60,
+        52
+      ],
+      "n_features": 52
+    },
+    "motor__right_arm": {
+      "shape": [
+        98,
+        60,
+        52
+      ],
+      "n_features": 52
+    },
+    "motor__left_leg": {
+      "shape": [
+        98,
+        60,
+        38
+      ],
+      "n_features": 38
+    },
+    "motor__right_leg": {
+      "shape": [
+        98,
+        60,
+        38
+      ],
+      "n_features": 38
+    }
+  }
+}

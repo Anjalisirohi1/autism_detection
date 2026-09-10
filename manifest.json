@@ -1,0 +1,190 @@
+{
+  "bundle": "asd-motor-handoff",
+  "built_utc": "2026-09-10T15:46:25.777536+00:00",
+  "primary_dataset": {
+    "name": "Al-Jubouri Kinect v2 ASD/TD gait dataset",
+    "licence": "CC0 1.0 (public domain dedication)",
+    "zenodo_doi": "10.5281/zenodo.4025120",
+    "shipped": true,
+    "reason_shippable": "CC0 places no restriction on redistribution"
+  },
+  "optional_dataset": {
+    "name": "MMASD+",
+    "licence": "none stated - all rights reserved by default",
+    "shipped": false,
+    "reason_not_shipped": "no redistribution permission; collaborator must download it themselves (see GET_THE_OTHER_DATASET.md)"
+  },
+  "python": "3.12",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "torch": "2.5.1+cu121",
+    "pyarrow": "25.0.1"
+  },
+  "n_files": 40,
+  "total_bytes": 6667556,
+  "files": {
+    ".python-version": {
+      "sha256": "8dfda54ba2f66ab3a8ebab460f4338bbeea1fb1e0f85ce06fe3530aa3c64679b",
+      "bytes": 6
+    },
+    "GET_THE_OTHER_DATASET.md": {
+      "sha256": "5c6bd1935d3fdfe291c730aeb7c55103f32014509d66ce172986a051808cd482",
+      "bytes": 1931
+    },
+    "IF_SOMETHING_GOES_WRONG.md": {
+      "sha256": "792694434bd03117480a73cb4001dc3b798ca30d55ff06e85b16fb09f82bf93c",
+      "bytes": 3600
+    },
+    "README.md": {
+      "sha256": "6c928a272d11253d8a3620038e89e518da57315b33358df10aa6a7050acbba25",
+      "bytes": 2682
+    },
+    "code/asdmotor/__init__.py": {
+      "sha256": "ecc406d90dbcedc36b12be5b445c0f0022234aa7460538b735d69270ee143c69",
+      "bytes": 91
+    },
+    "code/asdmotor/evaluation.py": {
+      "sha256": "80834acc6fadb9651d261ef6c49a5aaf8c06209d3df9c0080b04e365a4cbfaac",
+      "bytes": 5571
+    },
+    "code/asdmotor/features.py": {
+      "sha256": "a189671f97b4587e60c493b91f03369514bdcaebec555e9013c8a7a746dc1b7b",
+      "bytes": 8503
+    },
+    "code/asdmotor/logging_utils.py": {
+      "sha256": "76c506fc98e7959ce494835ee719b988ced938a78f51caa3bae8ca972ce62706",
+      "bytes": 1712
+    },
+    "code/asdmotor/matching.py": {
+      "sha256": "f4a646b7f8d7cf7153b29977e92d3e30fd7e5a297ae3cc416b2e0cf96e9f602b",
+      "bytes": 7139
+    },
+    "code/asdmotor/models.py": {
+      "sha256": "c2f512a4dfcb207158d905b4b11ffe271a1e267429483412fba01ccb7c361e5d",
+      "bytes": 6959
+    },
+    "code/asdmotor/preprocess.py": {
+      "sha256": "d6768e2ff8f4fa9df6e9b8f6fbbbb1a4e8fa04043a43bdf09e286505f14eb076",
+      "bytes": 4867
+    },
+    "code/asdmotor/quality.py": {
+      "sha256": "891e7de5feb76e3a5fad5528a00730aa742d704306201b281935af3cd2a2f70c",
+      "bytes": 7443
+    },
+    "code/asdmotor/sequences.py": {
+      "sha256": "b795dfdadda99af238e9dc40418b886e372cb9d09616ef9e81a3d3a42a921ea2",
+      "bytes": 7786
+    },
+    "code/asdmotor/skeleton.py": {
+      "sha256": "75c7a7f5a99819018be0094add8c6459802b1e66fc966f2a67c330ad4ef07540",
+      "bytes": 1213
+    },
+    "code/asdmotor/skeletons.py": {
+      "sha256": "037b446a2a7521220f6c944a484fa3fcfae41de1c6bc84535948fc6067252b69",
+      "bytes": 14523
+    },
+    "data/aljubouri/sequences/manifest.json": {
+      "sha256": "5ee4a266535c90038311e149b4b1757e283906cfa9cfae138571116b8427138c",
+      "bytes": 3405
+    },
+    "data/aljubouri/sequences/motor__head.npz": {
+      "sha256": "47482e2666118860ffddfce117abc66494ef82f0875f03f13b580d3fb4d4b115",
+      "bytes": 131036
+    },
+    "data/aljubouri/sequences/motor__left_arm.npz": {
+      "sha256": "dc29719f4a17197dc2faf15bb323186a93f1bfdee791cb3da624035c05a99224",
+      "bytes": 579019
+    },
+    "data/aljubouri/sequences/motor__left_leg.npz": {
+      "sha256": "f8f006a88b75fce265d9f728da2b2d5ea802cf0f76fc066ba820e95b8bbcd312",
+      "bytes": 398736
+    },
+    "data/aljubouri/sequences/motor__right_arm.npz": {
+      "sha256": "e5f6c867657731f46fa03aa298639da3dfb7d6a03f1546f3fa1a80a454ace27b",
+      "bytes": 578932
+    },
+    "data/aljubouri/sequences/motor__right_leg.npz": {
+      "sha256": "86696462411d375d3b5d683158e866fd0fc74a44746854fae3b3070ec4ef5126",
+      "bytes": 398919
+    },
+    "data/aljubouri/sequences/motor__torso.npz": {
+      "sha256": "8698d5c469955c6912eabb6e3adc8ffc7972e0fed7447c391c2ea01efd168c43",
+      "bytes": 570132
+    },
+    "data/aljubouri/sequences/motor__whole_body.npz": {
+      "sha256": "389b3cff5d82c9d676e5ec07ae4c91ada4ed83365a7b5b4d63968a1b65ceb6aa",
+      "bytes": 2129246
+    },
+    "data/aljubouri/sequences/pose__head.npz": {
+      "sha256": "e380e50711b4f0d0cc3dfbc89a1dff9f82bc708e9e0bd284b0489cb861ac0583",
+      "bytes": 66092
+    },
+    "data/aljubouri/sequences/pose__left_arm.npz": {
+      "sha256": "073ba0a2616df8ea8561fe14bdddf259c30c73366e9006ea7aa5c670fcc10aab",
+      "bytes": 200343
+    },
+    "data/aljubouri/sequences/pose__left_leg.npz": {
+      "sha256": "77a8892248893873a76c5336769df413d6aedc29350726f6cedf345cae87b57f",
+      "bytes": 121537
+    },
+    "data/aljubouri/sequences/pose__right_arm.npz": {
+      "sha256": "9cc2a695287dc20353b89f985fe5687ff81f058396d7e147e32cd9abb1fe3c10",
+      "bytes": 202310
+    },
+    "data/aljubouri/sequences/pose__right_leg.npz": {
+      "sha256": "26a36a5fd3431e02033e66b182415c425571f0a9116db86aa18922a857be46a3",
+      "bytes": 121231
+    },
+    "data/aljubouri/sequences/pose__torso.npz": {
+      "sha256": "7f99869cd07d7d73e76bc733db8bfd3ff8b534d64bfef4e1e0020c3055ccb83e",
+      "bytes": 225655
+    },
+    "data/aljubouri/sequences/pose__whole_body.npz": {
+      "sha256": "5477e35da2ac16e5a1103835456c4ad8fdd7a8dd475f9d27858c9c736904a63e",
+      "bytes": 807583
+    },
+    "data/aljubouri/sequences/sequence_metadata.csv": {
+      "sha256": "7d40d140a6488f45ee13d676d8693fffc3c38c6e49faf74e73a7e2ce60dd2981",
+      "bytes": 16193
+    },
+    "data/licences/CC0-1.0.txt": {
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    "data/licences/zenodo_4025120_record.json": {
+      "sha256": "c7377c239855fce9796e6f81b7de62e33d9862784e6e845f40f42d0a3ed0e781",
+      "bytes": 4967
+    },
+    "requirements.lock.txt": {
+      "sha256": "9ff4ad2f500738bae24f033ce49803e68417327c80738dee77a4a4aab879d6f2",
+      "bytes": 456
+    },
+    "results/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "run.bat": {
+      "sha256": "25c123bcb7447decbf2a4f3dae0bb014d1e547704e89c455c4d94701c336347b",
+      "bytes": 2049
+    },
+    "run.sh": {
+      "sha256": "626fb8702d9a657f3d45ffdfec4d4c8c93fe46cbebaf076baf96d1aa36891ae7",
+      "bytes": 1810
+    },
+    "run_all.py": {
+      "sha256": "5a05280b40d83da1bd1c9a697459fea76d673401931177c8941129aa388633f8",
+      "bytes": 26577
+    },
+    "smoke_test.bat": {
+      "sha256": "d07d9290917f16a515c03878334d53fa7d05b20b324938837817312100c09543",
+      "bytes": 176
+    },
+    "smoke_test.sh": {
+      "sha256": "530e418cce7557f82beee5904aacc4855efbf440e65c5c4728f92701a15afb1b",
+      "bytes": 78
+    }
+  }
+}
