@@ -156,7 +156,9 @@ models/checkpoints/
 # Experiment Outputs
 # ============================================================
 
-results/
+results/*
+!results/experiments.jsonl
+!results/.gitkeep
 
 # Experiment logs
 logs/
